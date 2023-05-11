@@ -27,7 +27,6 @@ $(function () {
     localStorage.setItem(timeBlockId, input);
     alert.removeClass('d-none').addClass('d-flex');
     });
-    // * hide alert when "X" button clicked
     $('.btn-close').on('click', function() {
       alert.addClass('d-none').removeClass('d-flex');
   });
