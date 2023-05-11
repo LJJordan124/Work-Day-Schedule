@@ -1,0 +1,83 @@
+:root { /* Colors inspired by Benjamin Moore 2023 */
+  --rasberryBlush: #d75f56;
+  --conchShell: #e6bdac;
+  --cinnamon: #984f3b;
+  --savannahGreen: #baa04f;
+  --newAge: #d6ced1;
+  --wenge: #3c2d2b;
+  --northSeaGreen: #236d73;
+  --starryNightBlue: #2b4676;
+  --bellBottomBlues: #3D738F;
+}
+header {
+  background-color: var(--rasberryBlush);
+  color: var(--wenge);
+  box-shadow: 0 0 10px black;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  background-color: var(--conchShell);
+}
+
+textarea {
+  background: transparent;
+  border: none;
+  resize: none;
+  color: #000000;
+  border-left: 1px solid black;
+  padding: 10px;
+}
+
+.description {
+  white-space: pre-wrap;
+  color: var(--newAge);
+}
+
+.time-block {
+  border-radius: 15px;
+}
+
+.row {
+  border-top: 1px solid var(--cinnamon);
+  border-bottom: 1px solid var(--cinnamon);
+}
+
+.hour {
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  background-color: var(--wenge);
+  color: var(--newAge);
+}
+
+.past {
+  background-color: var(--starryNightBlue);
+  color: var(--newAge);
+}
+.present {
+  background-color: var(--bellBottomBlues);
+  color: var(--newAge);
+}
+.future {
+  background-color: var(--northSeaGreen);
+  color: var(--newAge);
+}
+
+.saveBtn {
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: var(--savannahGreen);
+  color: var(--newAge);
+}
+
+.saveBtn i:hover {
+  font-size: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+#clearBtn {
+  color: var(--wenge);
+  background-color: var(--rasberryBlush);
+  border-color: var(--rasberryBlush);
+}
