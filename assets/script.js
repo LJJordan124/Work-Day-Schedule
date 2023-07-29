@@ -11,6 +11,9 @@ var hour14 = $('#hour-14');
 var hour15 = $('#hour-15');
 var hour16 = $('#hour-16');
 var hour17 = $('#hour-17');
+var hour18 = $('#hour-18');
+var hour19 = $('#hour-19');
+var hour20 = $('#hour-20');
 var saveBtn = $('.saveBtn');
 
 $(function () {
